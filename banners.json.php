@@ -1,0 +1,32 @@
+<?php
+$banners_json = <<< JSON
+{
+    "banners":[
+        {
+            "banner_src":"img/homepage/banner1.jpg",
+            "alt":"Banner1",
+            "link":{
+                "href":"pages/page1",
+                "target":"_self"
+            }
+        },
+        {
+            "banner_src":"img/homepage/banner2.jpg",
+            "alt":"Banner2",
+            "link":{
+                "href":"pages/page2",
+                "target":"_self"
+            }
+        },
+        {
+            "banner_src":"img/homepage/banner3.jpg",
+            "alt":"Banner3",
+            "link":{
+                "href":"#",
+                "target":""
+            }
+        }
+    ]
+}
+JSON;
+?>
